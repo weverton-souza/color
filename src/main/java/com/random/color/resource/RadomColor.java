@@ -34,6 +34,6 @@ public class RadomColor {
         for(short i = 1; i < 7; i++) {
             s[i] = hex[n & 0xf]; n >>= 4;
         }
-        return new String(s);
+        return "";
     }
 }
